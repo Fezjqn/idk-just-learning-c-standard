@@ -29,5 +29,5 @@ int main(){
 * This is now a "definition"
 */
 void show_message(void){
-	printf("hello\n");
+	printf("wachiwachiwa\n");
 }
