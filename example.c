@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define TIMES		10
 
 /*
 * Tell the compiler that we intend
@@ -16,7 +17,7 @@ int main(){
 	int count;
 	
 	count = 0;
-	while(count < 10){
+	while(count < TIMES){
 		show_message();
 		count = count + 1;
 	}
