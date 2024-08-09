@@ -3,6 +3,7 @@
 * Dumb program that generates prime numbers.
 */
 #include <stdio.h>
+#include <stdlib.h>
 #define COUNTER_PRIME		10000
 #define	NUMBER			1
 
@@ -25,5 +26,5 @@ int main(){
 			printf("%d is a prime number\n", this_number);
 		this_number = this_number + 1;
 	}
-	return(0);
+	exit(EXIT_SUCCESS);
 }
